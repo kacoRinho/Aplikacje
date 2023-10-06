@@ -1,5 +1,0 @@
-tekst = '''
-☭☭☭☭☭☭
-
-'''
-print (tekst)
