@@ -1,0 +1,5 @@
+tekst = '''
+☭☭☭☭☭☭
+
+'''
+print (tekst)
