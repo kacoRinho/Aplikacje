@@ -1,0 +1,8 @@
+kw1:
+INSERT INTO `czytelnicy`(`id`, `imie`, `nazwisko`, `kod`) VALUES ('','Ewelina','Romanowska','56677');
+kw2:
+SELECT imie, nazwisko FROM czytelnicy ORDER BY nazwisko;
+kw3:
+SELECT tytul FROM ksiazki JOIN autorzy ON autorzy.id=ksiazki.id_autor WHERE autorzy.id=8;
+kw4:
+SELECT nazwisko, COUNT(tytul) AS ile_tytulow FROM autorzy JOIN ksiazki ON ksiazki.id_autor = autorzy.id GROUP BY nazwisko;
