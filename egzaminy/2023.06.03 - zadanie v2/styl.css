@@ -1,0 +1,51 @@
+* {
+    font-family: Garamond;
+    text-align: center;
+    margin: 0;
+}
+#baner {
+    background-color: #8C7B75;
+    color: #fff;
+    height: 70px;
+    font-size: 150%;
+}
+#lewy {
+    background-color: #BCAAA4;
+    width: 35%;
+    height: 400px;
+    float: left;
+}
+#srodkowy {
+    background-color: #EFDCD5;
+    width: 30%;
+    height: 400px;
+    float: left;
+}
+#prawy {
+    background-color: #BCAAA4;
+    width: 35%;
+    height: 400px;
+    float: left
+}
+#stopka {
+    background-color: #8C7B75;
+    color: #fff;
+    height: 70px;
+    font-size: 150%;
+    clear: both;
+}
+ol, li {
+    list-style-type: lower-alpha;
+    text-align: left;
+}
+img {
+    border: 1px dashed #8C7B75;
+    padding: 5px;
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+}
+.wynik {
+    margin-top: 100px;
+    border: 1px solid #8C7B75;
+}
